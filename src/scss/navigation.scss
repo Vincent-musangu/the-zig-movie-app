@@ -1,0 +1,26 @@
+#search {
+	background-color: transparent;
+	border: none;
+	:focus {
+		background-color: transparent;
+	}
+}
+// #search:focus {
+
+// }
+#sidebar {
+	margin-top: 65px;
+	width: min-content;
+	display: block;
+	height: 100vh;
+	background-color: rgba(17, 16, 16, 0.76);
+}
+.sidenavlinks {
+	color: white;
+	:focus {
+		background-color: rgb(34, 43, 49);
+	}
+}
+// .sidenavlinks:focus {
+// 	background-color: rgb(34, 43, 49);
+// }

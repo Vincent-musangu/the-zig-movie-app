@@ -1,0 +1,67 @@
+.app {
+	background-color: rgb(78, 47, 47);
+	// margin-bottom: -50px;
+	// height: 100%;
+	padding-top: 90px;
+}
+.movies {
+	display: inline-flex;
+	// grid-row-end: auto;
+	justify-content: center;
+	// flex-wrap: wrap;
+	margin-left: 5%;
+}
+.jumbotron {
+	background: url("./images/24.jpg"),
+		linear-gradient(purple 0%, rgb(148, 0, 0) 80%);
+	text-align: center;
+	margin-top: -25px;
+	height: 100vh;
+	color: rgb(255, 255, 255);
+	// margin-top: -75px;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+#search {
+	position: fixed;
+	height: 384px;
+	margin-right: -27px;
+	color: red;
+	width: 100%;
+	width: 280px;
+	overflow-y: scroll;
+	right: 0px;
+	top: 67px;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(78, 47, 47);
+	-webkit-border-radius: 0px;
+	border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgb(192, 45, 57);
+}
+
+#loadMore {
+	width: 100%;
+	margin-bottom: -20px;
+	background-color: rgb(192, 45, 57);
+	text-align: center;
+	cursor: pointer;
+}
+footer {
+	height: 300px;
+	background: url("./images/24.jpg"),
+		linear-gradient(to right, purple 0%, rgb(148, 0, 0) 80%);
+	background-size: cover;
+	background-blend-mode: multiply;
+}
