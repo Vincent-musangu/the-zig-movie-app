@@ -98,7 +98,7 @@ const App: React.FC = () => {
         `https://api.themoviedb.org/3/movie/${id}/credits?api_key=e76c5953047a45b321529afcee0a5460`
       )
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setCredit(res.data);
       });
     // return details;
